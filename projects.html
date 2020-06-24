@@ -771,9 +771,9 @@
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Client</label>
+											<label>Founding Partner</label>
 											<select class="select">
-												<option>Global Technologies</option>
+												<option>WebCivics</option>
 												<option>Delta Infotech</option>
 											</select>
 										</div>
@@ -788,7 +788,7 @@
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>End Date</label>
+											<label>Delivery Target Date</label>
 											<div class="cal-icon"><input class="form-control datetimepicker" style="" type="text"></div>
 										</div>
 									</div>
@@ -796,7 +796,7 @@
 								<div class="row">
 									<div class="col-md-3">
 										<div class="form-group">
-											<label>Rate</label>
+											<label>Base Rate</label>
 											<input placeholder="$50" class="form-control" type="text">
 										</div>
 									</div>
@@ -806,6 +806,21 @@
 											<select class="select">
 												<option>Hourly</option>
 												<option>Fixed</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<label>Return On Investment</label>
+											<input placeholder="300%" class="form-control" type="text">
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<label>&nbsp;</label>
+											<select class="select">
+												<option>Fixed</option>
+												<option>Dynamic</option>
 											</select>
 										</div>
 									</div>
@@ -819,20 +834,106 @@
 											</select>
 										</div>
 									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>License</label>
+											<select class="select">
+												<option>Commercial</option>
+												<option>CreativeCommons</option>
+												<option>Custom</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<label>Budget</label>
+											<input placeholder="$500" class="form-control" type="text">
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<label>&nbsp;</label>
+											<select class="select">
+												<option>Monthly</option>
+												<option>TCO</option>
+											</select>
+										</div>
 								</div>
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Add Project Leader</label>
-											<input class="form-control" type="text">
+											<label>Project Governance Settings</label>
+<!----											<input class="form-control" type="text">
 										</div>
 									</div>
+								-->
+								</div>
+									<div class="dropdown action-label">
+										<a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+											<i class="fa fa-dot-circle-o text-info"></i> SVN <i class="caret"></i>
+										</a>
+										<ul class="dropdown-menu pull-right">
+											<li><a href="#"><i class="fa fa-dot-circle-o text-info"></i>Github</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-success"></i>GitLab</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i>SVN</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i>BitBucket</a></li>
+										</ul>
+									</div>
+									<div class="dropdown action-label">
+										<a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+											<i class="fa fa-dot-circle-o text-info"></i>Office<i class="caret"></i>
+										</a>
+										<ul class="dropdown-menu pull-right">
+											<li><a href="#"><i class="fa fa-dot-circle-o text-info"></i>OpenOffice</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-success"></i>Microsoft365</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i>GoogleDocs</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i>Other</a></li>
+										</ul>
+									</div>
+									<div class="dropdown action-label">
+										<a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+											<i class="fa fa-dot-circle-o text-info"></i>Comms<i class="caret"></i>
+										</a>
+										<ul class="dropdown-menu pull-right">
+											<li><a href="#"><i class="fa fa-dot-circle-o text-info"></i>Built In</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-success"></i>MS TEAMS</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i>Google</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i>Other</a></li>
+										</ul>
+									</div>
+									<div class="dropdown action-label">
+										<a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+											<i class="fa fa-dot-circle-o text-info"></i>Jurisdiction<i class="caret"></i>
+										</a>
+										<ul class="dropdown-menu pull-right">
+											<li><a href="#"><i class="fa fa-dot-circle-o text-info"></i>AU</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-success"></i>USA</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i>SINGAPORE</a></li>
+											<li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i>UK</a></li>
+										</ul>
+									</div>
+								</div>
+
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Team Leader</label>
+											<label>Project Creators</label>
 											<div class="project-members">
-												<a href="#" data-toggle="tooltip" title="Jeffery Lalor">
-													<img src="assets/img/user.jpg" class="avatar" alt="Jeffery Lalor" height="20" width="20">
+												<a href="#" data-toggle="tooltip" title="Timothy Lore">
+													<img src="assets/img/user.jpg" class="avatar" alt="Timothy Lore" height="20" width="20">
+												</a>
+												<a href="#" data-toggle="tooltip" title="Billy Knight">
+													<img src="assets/img/user.jpg" class="avatar" alt="Billy Knight" height="20" width="20">
+												</a>
+												<a href="#" data-toggle="tooltip" title="Amanda tulip">
+													<img src="assets/img/user.jpg" class="avatar" alt="Amanda tulip" height="20" width="20">
+												</a>
+											</div>
+										</div>
+										<div class="form-group">
+											<label>Project Administrator</label>
+											<div class="project-members">
+												<a href="#" data-toggle="tooltip" title="Billy Night">
+													<img src="assets/img/user.jpg" class="avatar" alt="Billy Night" height="20" width="20">
 												</a>
 											</div>
 										</div>
@@ -840,10 +941,11 @@
 								</div>
 								<div class="row">
 									<div class="col-md-6">
-										<div class="form-group">
+<!--										<div class="form-group">
 											<label>Add Team</label>
 											<input class="form-control" type="text">
 										</div>
+									-->
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
